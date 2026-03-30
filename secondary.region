@@ -17,6 +17,8 @@
           <a href="/">
             Secondary Layout
           </a>
+          <p>{website.siteTitle}</p>
+          <p>{website.siteTagLine}</p>
         </h1>
       </header>
 
@@ -24,6 +26,10 @@
         <div>
           <p>This template is for trying out the Squarespace developer platform.  Hopefully we can make money from our templates.</p>
         </div>
+
+        <section id="page" role="main" data-content-field="main-content">
+            {squarespace.main-content}
+        </section>
       </main>
 
     </div>

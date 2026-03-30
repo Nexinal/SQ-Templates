@@ -24,6 +24,9 @@
         <div>
           <p>This template is for trying out the Squarespace developer platform.  Hopefully we can make money from our templates.</p>
         </div>
+         <section id="page" role="main" data-content-field="main-content">
+            {squarespace.main-content}
+         </section>
       </main>
 
     </div>
