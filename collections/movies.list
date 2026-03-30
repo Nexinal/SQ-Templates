@@ -1,3 +1,5 @@
+<h2>List of my favourite movies</h2>
+
 {.repeated section items}
 
   <!--WRAPPER-->
