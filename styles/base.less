@@ -1,3 +1,11 @@
+/* tweak definitions */
+
+// tweak: { "type" : "color", "title" : "Movie Border Color" }
+@movie-border-color: teal;
+
+
+
+
 /* CSS pre-processing by {less}. http://lesscss.org/
 ***************************************************/
 
@@ -41,7 +49,7 @@ h1.site-title {
 
 
 .movie-item {
-    border: solid 1px var(--movie-border-color);
+    border: solid 1px @movie-border-color;
     padding: 0.5rem;
     margin-bottom: 0.2rem;
 }
