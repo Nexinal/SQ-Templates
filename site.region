@@ -9,6 +9,11 @@
   </head>
 
   <body>
+    <div class="navbar">
+        <div class="logo">Test Site</div>
+        <squarespace:navigation navigationId="mainNav" template="navigation" />
+    </div>
+
 
     <div class="container">
 
