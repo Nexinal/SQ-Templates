@@ -35,9 +35,7 @@
       </main>
 
 
-    {.section collection}
-    ...
-    <squarespace:category collection="Favourite Movies">
+    <squarespace:category collection="{urlId}">
         <pre>{categories|json}</pre>
         {.if categories}
         <div class="category-wrapper">
@@ -47,8 +45,11 @@
         </div>
         {.end}
     </squarespace:category>
-    ...
-    {.end}
+
+
+    <pre>
+        {squarespace|json_pretty}
+    </pre>
 
     </div>
 

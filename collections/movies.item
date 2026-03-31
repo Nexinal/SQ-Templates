@@ -19,7 +19,7 @@
     <p class="meta author">{author}</p>
 
     <!--MAIN CONTENT-->
-    <img src="{img}" />
+    <img src="{assetUrl}" />
 
 
 
