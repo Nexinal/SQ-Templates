@@ -1,6 +1,6 @@
 <h2>List of my favourite movies</h2>
 
-<pre>{items|json}</pre>
+<pre>{items|json-pretty}</pre>
 
 {.repeated section items}
 
