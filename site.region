@@ -35,7 +35,7 @@
       </main>
 
 
-    <squarespace:category collection="/new-favourite-movies-1">
+    <squarespace:category collection="new-favourite-movies-1">
         <p>Collection</p>
         <pre>{collection|json}</pre>
         
