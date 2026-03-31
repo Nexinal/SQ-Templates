@@ -19,7 +19,9 @@
     <p class="meta author">{author}</p>
 
     <!--MAIN CONTENT-->
-    <img src="{assetUrl}" />
+    <img src="{assetUrl}" 
+        style="object-position: {mediaFocalPoint.x|multiply:100}% {mediaFocalPoint.y|multiply:100}%;height:2rem;width:2rem;" 
+    />
 
 
 

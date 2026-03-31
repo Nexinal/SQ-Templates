@@ -35,7 +35,11 @@
       </main>
 
 
-    <squarespace:category collection="{urlId}">
+    <squarespace:category collection="/new-favourite-movies-1">
+        <p>Collection</p>
+        <pre>{collection|json}</pre>
+        
+        <p>Categories</p>
         <pre>{categories|json}</pre>
         {.if categories}
         <div class="category-wrapper">
