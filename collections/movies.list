@@ -1,5 +1,7 @@
 <h2>List of my favourite movies</h2>
 
+<pre>{items|json}</pre>
+
 {.repeated section items}
 
   <!--WRAPPER-->
