@@ -34,21 +34,10 @@
         </section>
       </main>
 
+<p>Collections:</p>
+<pre>{collections|json_pretty}</pre>
 
-    <squarespace:category collection="new-favourite-movies-1">
-        <p>Collection</p>
-        <pre>{collection|json}</pre>
-        
-        <p>Categories</p>
-        <pre>{categories|json}</pre>
-        {.if categories}
-        <div class="category-wrapper">
-            <span class="category">
-                {.repeated section categories}{name}{.alternates with}, {.end}
-            </span>
-        </div>
-        {.end}
-    </squarespace:category>
+
 
 
     <pre>
