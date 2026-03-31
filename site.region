@@ -34,16 +34,6 @@
         </section>
       </main>
 
-<p>Collections:</p>
-<pre>{collections|json_pretty}</pre>
-
-
-
-
-    <pre>
-        {squarespace|json_pretty}
-    </pre>
-
     </div>
 
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
