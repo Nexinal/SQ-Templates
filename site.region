@@ -29,10 +29,26 @@
         <div>
           <p>This template is for trying out the Squarespace developer platform.  Hopefully we can make money from our templates.</p>
         </div>
-         <section id="page" role="main" data-content-field="main-content">
-            {squarespace.main-content}
-         </section>
+        <section id="page" role="main" data-content-field="main-content">
+           {squarespace.main-content}
+        </section>
       </main>
+
+
+    {.section collection}
+    ...
+    <squarespace:category collection="movies">
+        <pre>{categories|json}</pre>
+        {.if categories}
+        <div class="category-wrapper">
+            <span class="category">
+                {.repeated section categories}{name}{.alternates with}, {.end}
+            </span>
+        </div>
+        {.end}
+    </squarespace:category>
+    ...
+    {.end}
 
     </div>
 
